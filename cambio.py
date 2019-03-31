@@ -19,8 +19,10 @@ resposta = get(url)
 if resposta.status_code == 200:
     print("Conseguiu acessar base de dados!")
     print("Buscando informações das moedas...")
-    dados = resposta.json() # Transformar 
+    dados = resposta.json() # Transformar JSON
 
+    day = dados['date']
+    print("Consulta realizada no dia %s/%s/%s" % (day[-2:], day[5:7], day[:4]))
 
     # Descobrir o valor em Real - Divide a taxa em real pela taxa da moeda que precisa
     euro_real = dados['rates']['BRL'] / dados['rates']['EUR']
