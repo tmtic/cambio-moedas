@@ -29,9 +29,9 @@ if resposta.status_code == 200:
     dollar_real = dados['rates']['BRL'] / dados['rates']['USD']
     btc_real = dados['rates']['BRL'] / dados['rates']['BTC']
 
-    print("%.2f" % euro_real)
-    print("%.2f" % dollar_real)
-    print("%.2f" % btc_real)
+    print("Euro: %.2f" % euro_real)
+    print("Dólar: %.2f" % dollar_real)
+    print("Bitcoin: %.2f" % btc_real)
 
 else:
     print("Site com problemas!")
