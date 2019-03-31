@@ -15,7 +15,6 @@ pip install json
 pip install pandas
 ```
 
-
 ### Arquivo gerado
 ![Python](valores.png)
 
