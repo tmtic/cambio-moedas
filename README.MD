@@ -16,7 +16,7 @@ pip install pandas
 ```
 
 ### Arquivo gerado
-![Python](valores.png)
+![Python](valores.PNG)
 
 ### Desenvolvedor
 
