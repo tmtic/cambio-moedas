@@ -39,7 +39,7 @@ if resposta.status_code == 200:
     print("Exportado com sucesso!")
 
 else:
-    print("Site com problemas!")
+    print("Site com problema!")
 
 
 
